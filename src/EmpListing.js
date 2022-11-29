@@ -137,6 +137,9 @@ const EmpListing = () => {
                                 </svg>
                             </a>
                         </div>
+
+                        {/* // export the data into excle file */}
+
                         <div className="divbtn">
                             <DownloadTableExcel
                                 filename="users table"
@@ -148,6 +151,7 @@ const EmpListing = () => {
                                 </svg></button>
                             </DownloadTableExcel>
                         </div>
+                        
                         <br />
                         <table ref={tableRef} className="table table-bordered table table-hover fixed_header">
                             <thead className="bg-dark text-white stickheader">
